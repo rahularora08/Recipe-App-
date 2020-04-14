@@ -51,6 +51,7 @@ class App extends React.Component{
           key = {recipe.recipe.label}
           title = {recipe.recipe.label}
           image = {recipe.recipe.image}
+          ingredients = {recipe.recipe.ingredients}
           />
         ))}
 
